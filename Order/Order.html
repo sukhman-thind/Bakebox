@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+	<html>
+		<head>
+		
+			<title>Custom Order</title>
+			<meta charset="UTF-8">
+			<meta name="keyword" content="My Website">
+			<meta name="author" content="Sukhman">
+			<meta name="description" content=".">
+			<link href="OrderStyles.css" rel="stylesheet" type="text/css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link href="OrderImages/icon.png" rel="icon">
+			
+			
+		</head id="grad1">
+		<body>
+			<header>
+				<h1><span style="font-size: 50px; margin: 0; padding: 0;">🍰</span>BAKEBOX</h1>
+				<nav class = "navbar">
+						<ul>
+							<li><a href="../Index/Index.html"> Home</a></li>
+							<li><a href="../Desserts/Desserts.html"> Desserts</a></li>
+							<li><a href="../Cakes/Cakes.html"> Cakes</a></li>
+							<li><a href="Order.html">Custom Order</a></li>
+							<li><a href="../ContactUs/ContactUs.html">Contact Us</a></li>
+						</ul>
+					</nav>
+				<hr>
+	<div class="Adiv">
+		<center><h2 class="Ah1">Order</h2></center>
+		<p class="round2">
+		<center><form>
+			<fieldset class="Afieldset">
+				<legend><b>Customer Information</b></legend>
+				<label for="name">First Name:</label><br>
+				<input type="text" id="name" name="name" placeholder="Enter Name" class="block" required>
+				<br><br>
+				<label for="L-name"> Last Name:</label><br>
+				<input type="text" id="L-name" name="L-name" placeholder="Enter Name" class="block" required>
+				<br><br>
+				<label for="Number">Phone Number:</label><br>
+				<input type="text" id="number" name="id" placeholder="Enter Number" class="block" required>
+				<br><br>
+				<label for="email"> Email:</label><br>
+				<input type="text" id="email" name="email" placeholder="Enter Email Here" class="block" required>
+				<br><br>
+				<label for="pickup"> Pickup Date:</label><br>
+				<input type="text" id="pickup" name="pickup" placeholder="Enter Here" class="block" required>
+				<br><br>
+				<label for="p-time"> Pickup Time:</label><br>
+				<input type="text" id="p-time" name="p-time" placeholder="Enter Here" class="block" required>
+				<br><br>
+				
+				
+			</fieldset>
+			
+			<fieldset class="Bfieldset">
+				<legend><b>Questions</b></legend>
+				<fieldset class="Cfieldset">
+					<legend><b>Multiple Choice</b></legend>
+						<ol>
+						<li> Cake tier 1 flavor </li>
+							<br>
+							<ol type="a">
+							<!-- <br> -->
+								<li><input type="radio" id="Chocolate" name="1" class="block" required>
+								<label for="Chocolate">Chocolate</label></li>
+								
+								<li><input type="radio" id="Vanilla" name="1" >
+								<label for="Vanilla">Vanilla</label></li>
+
+								<li><input type="radio" id="Red Velvet" name="1">
+								<label for="Red Velvet">Red Velvet</label></li>
+
+								<li><input type="radio" id="Carrot" name="1">
+								<label for="Carrot">Carrot</label></li>
+	
+							</ol>	
+							<br>
+						<li> Tier 2 <span style="color:#bfbfbf"><i>(optional)</i></span></li>
+							<br>
+							<ol type="a">
+								<li><input type="radio" id="Chocolate" name="2">
+								<label for="Chocolate">Chocolate</label></li>
+								
+								<li><input type="radio" id="Vanilla" name="2">
+								<label for="Vanilla">Vanilla</label></li>
+
+								<li><input type="radio" id="Red Velvet" name="2">
+								<label for="Red Velvet">Red Velvet</label></li>
+
+								<li><input type="radio" id="Carrot" name="2">
+								<label for="Carrot">Carrot</label></li>
+							</ol>	
+							<br>
+						<li> Tier 3 <span style="color:#bfbfbf"><i>(optional)</i></span></li>
+							<br>
+							<ol type="a">
+								<li><input type="radio" id="Chocolate" name="3">
+								<label for="Chocolate">Chocolate</label></li>
+								
+								<li><input type="radio" id="Vanilla" name="3">
+								<label for="Vanilla">Vanilla</label></li>
+
+								<li><input type="radio" id="Red Velvet" name="3">
+								<label for="Red Velvet">Red Velvet</label></li>
+
+								<li><input type="radio" id="Carrot" name="3">
+								<label for="Carrot">Carrot</label></li>
+							</ol>	
+							<br>
+						
+						<li> Buttercream Flavor? </li>
+							<br>
+							<ol type="a">
+								<li><input type="radio" id="Vanilla" name="4" class="block" required>
+								<label for="Vanilla">Vanilla</label></li>
+								<li><input type="radio" id="Chocolate" name="4">
+								<label for="Chocolate">Chocolate</label></li>
+								<li><input type="radio" id="Lemon" name="4">
+								<label for="Lemon">Lemon</label></li>
+								<li><input type="radio" id="Strawberry" name="4">
+								<label for="Strawberry">Strawberry</label></li>
+							</ol>	
+							<br>
+						<li> Occasion? </li>
+							<br>
+							<ol type="a">
+								<li><input type="radio" id="Birthday" name="5" class="block" required>
+								<label for="Birthday">Birthday</label></li>
+								<li><input type="radio" id="Wedding" name="5">
+								<label for="Wedding">Wedding</label></li>
+								<li><input type="radio" id="Anniversary" name="5">
+								<label for="Anniversary">Anniversary</label></li>
+								<li><input type="radio" id="Other" name="5">
+								<label for="Other">Other</label></li>
+							</ol>	
+							<br>
+						<li> Cake decoraterotion description?</li>
+							<br>
+								<textarea name="question-1" rows="6" cols="60" placeholder="Answer Here" class="block" required></textarea>
+								<br>
+								<br>
+						<li> Other Information?</li>
+							<br>
+								<textarea name="question-2" rows="6" cols="60" placeholder="Answer Here"></textarea>
+								<br>
+								<br>
+						<li>Notes</li>
+							<br>
+								<textarea name="question-2" rows="6" cols="60" placeholder="Answer Here" ></textarea>
+						</ol>	
+				</fieldset>
+			</fieldset>
+					<br>
+					<div class="button">
+						<a href="../Order//Done/done.html">SUBMIT</a>
+					</div>
+					
+				</form></center>
+					<br>
+		</p>
+	</div>
+			
+			
+			<footer>
+			
+				<table class="footer">
+					<tr>
+						<td class="col-3">
+							<h3><span style="font-size:24px">Socials</span></h3>
+								<br>
+								<p><b>Facebook:</b> <a href="https://www.facebook.com/" title="facebook" target="_blank">@BAKE_BOX</a></p>
+								<p><b>Instagram:</b> <a href="https://www.instagram.com/" title="Instagram" target="_blank">@BAKE_BOX</a></p>
+								<p><b>Tiktok:</b> <a href="https://www.tiktok.com/en/" title="Tiktok" target="_blank">@BAKE_BOX</a></p>
+							 
+						
+						<td class="col-3">
+							<h3><span style="font-size:24px">Help</span></h3>
+								<br>
+								<p><b><a href="../ContactUs/ContactUs.html">Contact Us</a></b></p>
+								<p><b><a href="https://www.google.com/maps/place/Ukeamuro,+Setouchi,+Oshima+District,+Kagoshima+894-2502,+Japan/@28.0188961,129.2401326,14z/data=!3m1!4b1!4m6!3m5!1s0x34e1d58b673fe207:0xc218b1afa0cebf67!8m2!3d28.0246255!4d129.2531353!16s%2Fg%2F1pxyhx0t5?entry=ttu" target="_blank" title="Map">Location</a></b></p>
+								<p><b><a href="https://www.ubereats.com/ca" target="_blank" title="Map">Uber Eats</a></b></p>
+						</td>
+						
+					<td class="arrow">
+                       <a href="#top"><img src="../CommonImages/arrow.png" alt="picture" style="height:80px; width:80px;"></a>
+                    </td>
+					</tr>
+				</table>
+		   
+			</footer>
+	</body>
+</html>
+	
+	
