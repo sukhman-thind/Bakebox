@@ -58,6 +58,7 @@ nav ul li a:hover{
 
 h2{
 	font-size:20px;
+	
 
 }
 .h1{
@@ -66,9 +67,8 @@ h2{
 	font-size:50px;
 
 }
-img{
-	padding-top: 30px;
-}
+
+
 
 img{
 	margin-left: 10%;
@@ -77,16 +77,16 @@ img{
 
 .column {
 	width: 35%;
-	padding: 10px;
+	margin-bottom: px;
 	height: 300px; /* Should be removed. Only for demonstration */
-	margin-left:10%;
+	margin-left:8%;
   }
   .column1{
 	width: 40%;
 	padding: 10px;
 	height: 300px; 
 	float:left;
-	margin-top:-20%;
+	margin-top:-21%;
 	margin-left:45% ;
   }
   
@@ -104,7 +104,7 @@ img{
 	font-family: 'poppins', sans-sarif;
 	color: #FFFFFF;
 	font-size: 16px;
-	margin-top:20%;
+	margin-top:30%;
 }
 
 .footer {
